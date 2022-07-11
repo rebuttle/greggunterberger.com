@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5151A6;
+  color: #B5AFD0;
+  font-family: "Lucida Sans Unicode", Lucida, Helvetica;
+  font-size: .8em;
+  line-height: 1.3em;
+}
+
+img {
+	border: none;
+}
+
+a:link {
+	color:#0FC;
+}
+
+a:visited, a:hover {
+	color:#0CC;
+}
+
+#wrapper {
+    background: #000066 url(http://www.greggunterberger.com/themes/GreggOriginal/images/wrapperBg.gif) top left repeat-y;
+    border: 1px solid #EAEAEA;
+    margin: 12px;
+	min-height:200px; 
+	max-width: 1500px;
+}
+
+#deco-main {
+	margin: -12px auto auto -12px;
+	position: absolute;
+	z-index: 10;
+}
+
+#header {
+	width: 100%;
+	background-color: #6565FF;
+	height: 30px;
+	position: relative;
+}
+
+#header #sitename {
+	color:#000066;
+	font-size: 18px;
+	text-align: right;
+	padding: 7px 40px 7px 7px;
+	margin: 0;
+}
+
+#header #tagline {
+ 	color: #6565FF;
+	padding: 5px 40px 5px 5px;
+	margin: 0;
+    text-align: right;
+	font-style: italic;
+}
+
+#header #deco-headerRight {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#leftMenu {
+    background-color: #303086;
+    float: left;
+    margin-top: 170px;
+    padding: 10px 0 10px 0;
+    position: relative;
+    width: 185px;
+	height:100%; 
+}
+
+#leftMenu .nav li {
+	display: block;
+	background: transparent url(http://www.greggunterberger.com/themes/GreggOriginal/images/menuDeco.gif) no-repeat top right;
+	text-align: right;
+	padding: 2px 20px 2px 2px;
+	margin: 0;
+	list-style: none;
+	vertical-align: middle;
+}
+
+#leftMenu .nav-header li a:link,
+#leftMenu .nav-header li a:visited {
+	text-decoration: none;
+	color: #B5AFD0;
+	font-weight: bold;
+}
+
+#content {
+	padding: 20px;
+	margin-left: 240px;
+	min-height: 300px;
+	position: relative;
+}
+
+#content h1 {
+	margin: 50px auto 30px 60px;
+	line-height: 1.2em;
+}
+
+#sidebar {
+	float: right;
+	width: 200px;
+	margin: 20px 0 10px 20px;
+}
+
+#bottomDeco {
+	background: #000066 url(http://www.greggunterberger.com/themes/GreggOriginal/images/bottomNavDeco.gif) bottom left no-repeat;
+	height: 32px;
+	position: relative;
+	margin: 0;
+    padding: 0;
+}
+
+#bottomDeco #deco-circles {
+    margin: -165px 0 0 5px;
+}
+
+#footer {
+	background-color:#6666FF;
+	padding: 5px;
+	clear: both;
+	text-align:center;
+	font-size: .9em;
+}
+
+#C5-footer {
+	font-size: .9em;
+	padding: 10px 10px 20px 15px;
+}
